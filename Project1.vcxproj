@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{6571C747-F352-459D-B9CF-220F1B3E4787}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\prog\Opus Magnum\SFML-2.5.0-windows-vc15-32-bit\SFML-2.5.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\prog\Opus Magnum\SFML-2.5.0-windows-vc15-32-bit\SFML-2.5.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-window-d.lib;sfml-system-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\prog\Opus Magnum\SFML-2.5.0-windows-vc15-32-bit\SFML-2.5.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\prog\Opus Magnum\SFML-2.5.0-windows-vc15-32-bit\SFML-2.5.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-window.lib;sfml-system.lib;sfml-graphics.lib;sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Archer.cpp" />
+    <ClCompile Include="Armor.cpp" />
+    <ClCompile Include="Battle.cpp" />
+    <ClCompile Include="Bow.cpp" />
+    <ClCompile Include="Critical_shot.cpp" />
+    <ClCompile Include="Critical_slash.cpp" />
+    <ClCompile Include="Curse.cpp" />
+    <ClCompile Include="eArcher.cpp" />
+    <ClCompile Include="eFighter.cpp" />
+    <ClCompile Include="eMage_warrior.cpp" />
+    <ClCompile Include="eTank.cpp" />
+    <ClCompile Include="eWizzard.cpp" />
+    <ClCompile Include="Fangs.cpp" />
+    <ClCompile Include="Fighter.cpp" />
+    <ClCompile Include="Fire_ball.cpp" />
+    <ClCompile Include="Flame_shot.cpp" />
+    <ClCompile Include="Ghost.cpp" />
+    <ClCompile Include="Helmet.cpp" />
+    <ClCompile Include="Hook.cpp" />
+    <ClCompile Include="Instinct.cpp" />
+    <ClCompile Include="Mage_warrior.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="m_Armor.cpp" />
+    <ClCompile Include="m_Bow.cpp" />
+    <ClCompile Include="m_Fangs.cpp" />
+    <ClCompile Include="m_Helmet.cpp" />
+    <ClCompile Include="m_Shield.cpp" />
+    <ClCompile Include="m_Sword.cpp" />
+    <ClCompile Include="Orc.cpp" />
+    <ClCompile Include="Order.cpp" />
+    <ClCompile Include="Path.cpp" />
+    <ClCompile Include="Poison_shot.cpp" />
+    <ClCompile Include="Protection.cpp" />
+    <ClCompile Include="Shared.cpp" />
+    <ClCompile Include="Shield.cpp" />
+    <ClCompile Include="Slash.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Spider.cpp" />
+    <ClCompile Include="Staff.cpp" />
+    <ClCompile Include="Sword.cpp" />
+    <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="Team.cpp" />
+    <ClCompile Include="Treatment.cpp" />
+    <ClCompile Include="Werewolf.cpp" />
+    <ClCompile Include="Wizzard.cpp" />
+    <ClCompile Include="Wolf.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Archer.h" />
+    <ClInclude Include="Armor.h" />
+    <ClInclude Include="base_e_Team.h" />
+    <ClInclude Include="Battle.h" />
+    <ClInclude Include="Being.h" />
+    <ClInclude Include="boss_e_Team.h" />
+    <ClInclude Include="Bow.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Button_Sprite.h" />
+    <ClInclude Include="Critical_shot.h" />
+    <ClInclude Include="Critical_slash.h" />
+    <ClInclude Include="Curse.h" />
+    <ClInclude Include="eArcher.h" />
+    <ClInclude Include="eFighter.h" />
+    <ClInclude Include="eMage_warrior.h" />
+    <ClInclude Include="Enemies.h" />
+    <ClInclude Include="eTank.h" />
+    <ClInclude Include="eWizzard.h" />
+    <ClInclude Include="e_Team.h" />
+    <ClInclude Include="Fangs.h" />
+    <ClInclude Include="Fighter.h" />
+    <ClInclude Include="Fire_ball.h" />
+    <ClInclude Include="Flame_shot.h" />
+    <ClInclude Include="Ghost.h" />
+    <ClInclude Include="Helmet.h" />
+    <ClInclude Include="Hook.h" />
+    <ClInclude Include="Instinct.h" />
+    <ClInclude Include="Iteam.h" />
+    <ClInclude Include="Mage_warrior.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Music.h" />
+    <ClInclude Include="m_Armor.h" />
+    <ClInclude Include="m_Bow.h" />
+    <ClInclude Include="m_Fangs.h" />
+    <ClInclude Include="m_Helmet.h" />
+    <ClInclude Include="m_Shield.h" />
+    <ClInclude Include="m_Sword.h" />
+    <ClInclude Include="Orc.h" />
+    <ClInclude Include="Order.h" />
+    <ClInclude Include="Party_member.h" />
+    <ClInclude Include="Path.h" />
+    <ClInclude Include="Poison_shot.h" />
+    <ClInclude Include="Protection.h" />
+    <ClInclude Include="Shared.h" />
+    <ClInclude Include="Shield.h" />
+    <ClInclude Include="Skill.h" />
+    <ClInclude Include="Slash.h" />
+    <ClInclude Include="Spider.h" />
+    <ClInclude Include="Staff.h" />
+    <ClInclude Include="Suit.h" />
+    <ClInclude Include="Sword.h" />
+    <ClInclude Include="Tank.h" />
+    <ClInclude Include="Team.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="Treatment.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="Werewolf.h" />
+    <ClInclude Include="Wizzard.h" />
+    <ClInclude Include="Wolf.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

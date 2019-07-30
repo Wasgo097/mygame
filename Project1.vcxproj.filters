@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Weapon">
+      <UniqueIdentifier>{1332688a-66bb-457e-8e86-4f0e560eb73b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Being">
+      <UniqueIdentifier>{b81ea3fc-344f-4a57-889e-6604b195759f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Virtual">
+      <UniqueIdentifier>{40b96178-f1d0-4a8b-a783-7f1930bd069c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Armor">
+      <UniqueIdentifier>{1fc16881-207c-49f5-90c7-f2189aa362cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Being\e">
+      <UniqueIdentifier>{dfb4a710-f5bf-4fc6-9df6-1c0b3a30bcdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Armor">
+      <UniqueIdentifier>{bc4f6fe5-09a0-4625-8218-774e3fcef174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Weapon">
+      <UniqueIdentifier>{62fac955-b8ac-4cbe-85c6-30a03898c1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Being">
+      <UniqueIdentifier>{cb564e9a-f3a8-47d3-b14e-dcb825e5fc3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Being\e">
+      <UniqueIdentifier>{753aaf18-a059-455d-9bce-81cb667a6f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Button and text">
+      <UniqueIdentifier>{3ec3e677-2c0e-43e2-a391-8b143bc8e903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Teams">
+      <UniqueIdentifier>{782e4404-66e2-4746-b7dc-a6963c63341c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Skill">
+      <UniqueIdentifier>{93d29e25-debd-4e41-9a18-dcb750de4253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Skill">
+      <UniqueIdentifier>{ec1700e1-532c-401d-bf62-59b59378d44c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shared.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>Source Files\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="m_Armor.cpp">
+      <Filter>Source Files\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="m_Shield.cpp">
+      <Filter>Source Files\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="m_Helmet.cpp">
+      <Filter>Source Files\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>Source Files\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Helmet.cpp">
+      <Filter>Source Files\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Bow.cpp">
+      <Filter>Source Files\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="m_Bow.cpp">
+      <Filter>Source Files\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Fangs.cpp">
+      <Filter>Source Files\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="m_Fangs.cpp">
+      <Filter>Source Files\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>Source Files\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="m_Sword.cpp">
+      <Filter>Source Files\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Staff.cpp">
+      <Filter>Source Files\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>Source Files\Being</Filter>
+    </ClCompile>
+    <ClCompile Include="Fighter.cpp">
+      <Filter>Source Files\Being</Filter>
+    </ClCompile>
+    <ClCompile Include="Mage_warrior.cpp">
+      <Filter>Source Files\Being</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>Source Files\Being</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizzard.cpp">
+      <Filter>Source Files\Being</Filter>
+    </ClCompile>
+    <ClCompile Include="Team.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eArcher.cpp">
+      <Filter>Source Files\Being\e</Filter>
+    </ClCompile>
+    <ClCompile Include="eFighter.cpp">
+      <Filter>Source Files\Being\e</Filter>
+    </ClCompile>
+    <ClCompile Include="eMage_warrior.cpp">
+      <Filter>Source Files\Being\e</Filter>
+    </ClCompile>
+    <ClCompile Include="eTank.cpp">
+      <Filter>Source Files\Being\e</Filter>
+    </ClCompile>
+    <ClCompile Include="eWizzard.cpp">
+      <Filter>Source Files\Being\e</Filter>
+    </ClCompile>
+    <ClCompile Include="Critical_shot.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Critical_slash.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire_ball.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Curse.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Flame_shot.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Instinct.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Poison_shot.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Protection.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Slash.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Treatment.cpp">
+      <Filter>Source Files\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Source Files\Being\e</Filter>
+    </ClCompile>
+    <ClCompile Include="Orc.cpp">
+      <Filter>Source Files\Being\e</Filter>
+    </ClCompile>
+    <ClCompile Include="Spider.cpp">
+      <Filter>Source Files\Being\e</Filter>
+    </ClCompile>
+    <ClCompile Include="Werewolf.cpp">
+      <Filter>Source Files\Being\e</Filter>
+    </ClCompile>
+    <ClCompile Include="Wolf.cpp">
+      <Filter>Source Files\Being\e</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="m_Bow.h">
+      <Filter>Header Files\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="m_Fangs.h">
+      <Filter>Header Files\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="m_Sword.h">
+      <Filter>Header Files\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Staff.h">
+      <Filter>Header Files\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>Header Files\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Being.h">
+      <Filter>Header Files\Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Bow.h">
+      <Filter>Header Files\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Helmet.h">
+      <Filter>Header Files\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Fangs.h">
+      <Filter>Header Files\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Iteam.h">
+      <Filter>Header Files\Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="m_Armor.h">
+      <Filter>Header Files\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="m_Helmet.h">
+      <Filter>Header Files\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="m_Shield.h">
+      <Filter>Header Files\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>Header Files\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Suit.h">
+      <Filter>Header Files\Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Header Files\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files\Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>Header Files\Being</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemies.h">
+      <Filter>Header Files\Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Party_member.h">
+      <Filter>Header Files\Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter.h">
+      <Filter>Header Files\Being</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage_warrior.h">
+      <Filter>Header Files\Being</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Header Files\Being</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizzard.h">
+      <Filter>Header Files\Being</Filter>
+    </ClInclude>
+    <ClInclude Include="eArcher.h">
+      <Filter>Header Files\Being\e</Filter>
+    </ClInclude>
+    <ClInclude Include="eFighter.h">
+      <Filter>Header Files\Being\e</Filter>
+    </ClInclude>
+    <ClInclude Include="eMage_warrior.h">
+      <Filter>Header Files\Being\e</Filter>
+    </ClInclude>
+    <ClInclude Include="eTank.h">
+      <Filter>Header Files\Being\e</Filter>
+    </ClInclude>
+    <ClInclude Include="eWizzard.h">
+      <Filter>Header Files\Being\e</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Header Files\Being\e</Filter>
+    </ClInclude>
+    <ClInclude Include="Orc.h">
+      <Filter>Header Files\Being\e</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>Header Files\Being\e</Filter>
+    </ClInclude>
+    <ClInclude Include="Werewolf.h">
+      <Filter>Header Files\Being\e</Filter>
+    </ClInclude>
+    <ClInclude Include="Wolf.h">
+      <Filter>Header Files\Being\e</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Button and text</Filter>
+    </ClInclude>
+    <ClInclude Include="Button_Sprite.h">
+      <Filter>Header Files\Button and text</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files\Button and text</Filter>
+    </ClInclude>
+    <ClInclude Include="base_e_Team.h">
+      <Filter>Header Files\Teams</Filter>
+    </ClInclude>
+    <ClInclude Include="Team.h">
+      <Filter>Header Files\Teams</Filter>
+    </ClInclude>
+    <ClInclude Include="e_Team.h">
+      <Filter>Header Files\Teams</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Header Files\Virtual</Filter>
+    </ClInclude>
+    <ClInclude Include="Flame_shot.h">
+      <Filter>Header Files\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Poison_shot.h">
+      <Filter>Header Files\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Critical_shot.h">
+      <Filter>Header Files\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Slash.h">
+      <Filter>Header Files\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Critical_slash.h">
+      <Filter>Header Files\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Instinct.h">
+      <Filter>Header Files\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire_ball.h">
+      <Filter>Header Files\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>Header Files\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Treatment.h">
+      <Filter>Header Files\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection.h">
+      <Filter>Header Files\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Order.h">
+      <Filter>Header Files\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Curse.h">
+      <Filter>Header Files\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="boss_e_Team.h">
+      <Filter>Header Files\Teams</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
